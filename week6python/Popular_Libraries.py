@@ -19,7 +19,7 @@ print("\nPandas DataFrame:\n", df)
 print("\nSummary Statistics:\n", df.describe())
 
 
-response = requests.get('https://api.coindesk.com/v1/bpi/currentprice.json')
+response = requests.get('the link to send or recive the requets')
 if response.status_code == 200:
     bitcoin_data = response.json()
     usd_price = bitcoin_data['bpi']['USD']['rate']
